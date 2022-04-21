@@ -1,0 +1,58 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #5D5F71;
+$bgcolor: #ECDCDA;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $bgcolor;
+}
+
+nav { 
+    background-image: linear-gradient(to left, #DABECA, #b9769c);
+    height: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        width: 25px;
+        padding: 6px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    li { 
+        list-style: none;
+        margin-right: 2px;
+    }
+
+    &:hover {
+        font-weight: bold;
+      }
+    
+}
+$myColor: #9A7DC1;
+
+h2 {
+  $myColor: #b9769c;
+  color: $myColor;
+}
+
+p {
+  color: $myColor;
+}
+
+footer {
+    background-color: #b9769c;
+    height: 30px;
+    a {
+        align-items: center;
+        stroke-width: $myColor;
+    }
+}

@@ -1,0 +1,70 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #5D5F71;
+  background-color: #ECDCDA;
+}
+
+nav {
+  background-image: -webkit-gradient(linear, right top, left top, from(#DABECA), to(#b9769c));
+  background-image: linear-gradient(to left, #DABECA, #b9769c);
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav img {
+  width: 25px;
+  padding: 6px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 2px;
+}
+
+nav:hover {
+  font-weight: bold;
+}
+
+h2 {
+  color: #b9769c;
+}
+
+p {
+  color: #9A7DC1;
+}
+
+footer {
+  background-color: #b9769c;
+  height: 30px;
+}
+
+footer a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  stroke-width: #9A7DC1;
+}
+/*# sourceMappingURL=estilos.css.map */
