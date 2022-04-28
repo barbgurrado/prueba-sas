@@ -1,13 +1,14 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #5D5F71;
-  background-color: #ECDCDA;
+html {
+  font-family: "Quicksand", sans-serif;
+  padding: 0cm;
+  background-color: #e9e0d7;
+  margin: 0;
+  padding: 0p;
 }
 
 nav {
-  background-image: -webkit-gradient(linear, right top, left top, from(#DABECA), to(#b9769c));
-  background-image: linear-gradient(to left, #DABECA, #b9769c);
-  height: 50px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#E2AFDE), to(#F991CC));
+  background-image: linear-gradient(to left, #E2AFDE, #F991CC);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,14 +16,17 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 40px;
 }
 
 nav img {
-  width: 25px;
-  padding: 6px;
+  width: 40px;
 }
 
 nav ul {
@@ -34,37 +38,56 @@ nav ul {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 nav li {
-  list-style: none;
-  margin-right: 2px;
-}
-
-nav:hover {
-  font-weight: bold;
-}
-
-h2 {
-  color: #b9769c;
-}
-
-p {
-  color: #9A7DC1;
+  margin-right: 5px;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 footer {
-  background-color: #b9769c;
-  height: 30px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F991CC), to(#E2AFDE));
+  background-image: linear-gradient(to left, #F991CC, #E2AFDE);
+  font-size: medium;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-footer a {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  stroke-width: #9A7DC1;
+footer .links {
+  color: black;
+}
+
+footer:hover, footer a.links:active {
+  font-size: 110%;
+}
+
+article {
+  background-color: #e9e0d7;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #b66fa1;
+}
+
+article h2 {
+  color: #b66fa1;
+  text-align: left;
+  font-size: xx-large;
+}
+
+h3 {
+  background-color: #b45096;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.quote {
+  border: 2px solid #b45096;
+}
+
+.donatella {
+  border: 1px solid #E2AFDE;
 }
 /*# sourceMappingURL=estilos.css.map */
